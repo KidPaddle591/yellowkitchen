@@ -1,0 +1,171 @@
+/**General**/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;}
+
+    @font-face {
+        font-family: "Poppins-regular";
+        src: url(../../assets/fonts/poppins-regular.ttf) format('ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "MartelSans-regular";
+        src: url(../../assets/fonts/martelsans-regular.ttf) format('ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+                        /**Header**/
+/**Set header border**/
+header{
+    border-bottom: 0.1rem solid;
+    border-color:lightgray ;
+}
+/**Set container**/
+.container{
+    width:85%; /**container width to define general margin**/
+    margin: auto; /**Center container on the page**/
+}
+
+.menu-burger{
+    width: 3rem; 
+    height: 3rem;
+    vertical-align: bottom;
+}
+/**Set "YellowKitchen" column**/
+.column-logo{
+    width:10%;
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+/**Set "empty" column**/
+.column-empty{
+    width:50%;
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+/**Set "nav" column**/
+.column-nav{
+    width:39%;
+    display: inline-block;
+    text-align: right;/**align the nav on the right**/
+    margin-bottom: 0.1rem;
+}
+
+.nav{
+    list-style-type: none;
+    display:inline-block;
+    text-align: right; /**align the nav on the right**/
+    margin : 1rem;
+}
+
+.login{
+    vertical-align:middle;
+}
+
+.basket{
+    vertical-align: middle;
+}
+.menu-burger{
+    vertical-align: middle;
+}
+                        /**Section 1**/
+
+/**Column for title and Delivery&TakeOut buttons**/
+.column-cta {
+    width:49%;
+    display: inline-block;
+    vertical-align:top
+}
+/**Column for main image**/
+.column-image {
+    width:49%;
+    display: inline-block;
+    vertical-align: top;
+}
+/**Position of the image in column5**/
+.image-principale{
+    float: right;
+}
+
+/**Main title settings**/
+.main-title{
+    font-family: "Poppins-regular", sans-serif;
+    font-size: 3.625rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    width: 45%;
+    margin-top: 7rem;
+}
+
+/**Delivery button settings**/
+/**design delivery button**/
+.delivery{
+    font-family: "MartelSans-regular", sans-serif;
+    border : 0.25rem solid;
+    border-color: #FFE145;
+    padding:1.5rem;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    margin:5rem 2rem 10rem 0;
+}
+/**TakeOut button settings**/
+/**design takeout**/
+.takeout{
+    font-family: "MartelSans-regular", sans-serif;
+    border : 0.25rem solid;
+    border-color: #FFE145;
+    padding:1.5rem;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+}
+/** Main text on both buttons**/
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+/**Secondary text on both buttons**/
+h4 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+                    /**Section 2**/
+/**Text "Restaurants" design**/
+.restaurants {
+    font-family: "Poppins-regular", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-bottom: 3rem;
+}
+
+/**General design of the cards**/
+.column{
+    display: inline-block;
+}
+.image-restaurant{
+    display: block;
+}
+
+.restaurants.row{
+    text-align: center;
+}
+
+/**Cards design**/
+.card1{
+    margin-right: 28rem;
+}
+.card2{
+    margin-right: 28rem;
+}
+.card3{
+    margin-right: 28rem;
+}
